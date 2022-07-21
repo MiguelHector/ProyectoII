@@ -1,0 +1,26 @@
+http://localhost:8092/renting/serviceLog/create
+{
+        "id": 0,
+        "idServTrans": "3",
+        "typeLog": "SALIDA",
+        "dateLog": "2022-07-20",
+        "km":"23456",
+        "observation":"Salida a las 9.30 horas"
+    }
+	
+http://localhost:8092/renting/serviceLog/get/all
+
+http://localhost:8092/renting/serviceLog/getId/1
+
+http://localhost:8092/renting/serviceLog/update/1
+
+{
+    "id": 1,
+    "idServTrans": "3",
+    "typeLog": "SALIDA",
+    "dateLog": "2022-07-20",
+    "km": "23486",
+    "observation": "Salida a las 9.30 horas"
+    }
+
+http://localhost:8092/renting/serviceLog/delete/1

@@ -1,0 +1,38 @@
+server:
+  port: 8093
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: jsonclient
+        uri: http://localhost:8088
+        predicates:
+        - Path=/renting/client/**
+      - id: jsondriver
+        uri: http://localhost:8089
+        predicates:
+        - Path=/renting/driver/**
+      - id: jsonvehicle
+        uri: http://localhost:8090
+        predicates:
+        - Path=/renting/vehicle/**
+      - id: jsonservice
+        uri: http://localhost:8091
+        predicates:
+        - Path=/renting/service/**
+      - id: jsonservicelog
+        uri: http://localhost:8092
+        predicates:
+        - Path=/renting/servicelog/**
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+            - GET
+            - POST
+            - PUT
+            - DELETE
+            - PATCH
+            - OPTION
+          

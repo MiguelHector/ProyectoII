@@ -1,0 +1,34 @@
+http://localhost:8089/renting/driver/create
+
+{
+        "id": 0,
+        "dni": "20234598",
+        "names": "CARLOS",
+        "lastName": "PEREZ GOMEZ",
+        "license":"Q20234598",
+        "category":"B1",
+        "dateBirth":"1980-11-23",
+        "status":"ACTIVO"
+    }
+	
+http://localhost:8089/renting/driver/get/all
+
+
+http://localhost:8089/renting/driver/getId/1
+
+http://localhost:8089/renting/driver/getDocument/19903467
+
+http://localhost:8089/renting/driver/update/3
+{
+        "id": 3,
+        "dni": "20100658",
+        "names": "LUIS",
+        "lastName": "MONTTES",
+        "license": "Q20100658",
+        "category": "A1",
+        "dateBirth": "1988-11-05",
+        "status": "ACTIVO"
+    }
+	
+http://localhost:8089/renting/driver/delete/2
+

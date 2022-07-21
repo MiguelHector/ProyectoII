@@ -1,0 +1,32 @@
+http://localhost:8088/renting/client/create
+{
+        "id": 0,
+        "ruc": "2010065848",
+        "companyName": "CARRETERA SAC",
+        "department": "CUZCO",
+        "province":"CUZCO",
+        "district":"CUZCO",
+        "status":"ACTIVO"
+    }
+
+http://localhost:8088/renting/client/get/all
+
+http://localhost:8088/renting/client/getId/10
+
+http://localhost:8088/renting/client/getDocument/2010065848
+
+http://localhost:8088/renting/client/update/1
+
+{
+        "id": 1,
+        "ruc": "20100987823",
+        "companyName": "SAGA LIMA",
+        "department": "LIMAx",
+        "province": "rrrrr",
+        "district": "QQQQQQQr",
+        "status": "ACTIVO"
+    }
+	
+	
+http://localhost:8088/renting/client/delete/2
+

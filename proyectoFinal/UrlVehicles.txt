@@ -1,0 +1,26 @@
+http://localhost:8090/renting/vehicle/create
+{
+        "id": 0,
+        "placa": "BXE345",
+        "descriptionVehicle": "KENWORT BLANCO",
+        "datePurchase": "2020-11-12",
+        "status":"ACTIVO"
+    }
+	
+http://localhost:8090/renting/vehicle/get/all
+
+http://localhost:8090/renting/vehicle/getId/8
+
+http://localhost:8090/renting/vehicle/getDocument/BXE345
+
+http://localhost:8090/renting/vehicle/update/21
+{
+    "id": 21,
+    "placa": "BXE345",
+    "descriptionVehicle": "KENWORT JW45 BLANCO",
+    "datePurchase": "2020-11-12",
+    "status": "ACTIVO"
+}
+
+http://localhost:8090/renting/vehicle/delete/2
+

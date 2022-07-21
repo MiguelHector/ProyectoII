@@ -1,0 +1,13 @@
+com\renting\client\service\ClientService.class
+com\renting\client\service\ISequenceGeneratorService.class
+com\renting\client\clientApplication.class
+com\renting\client\service\IClientService.class
+com\renting\client\listener\ClientModelListener.class
+com\renting\client\config\MongoDbConfig.class
+com\renting\client\config\WebFluxConfig.class
+com\renting\client\model\Client$ClientBuilder.class
+com\renting\client\model\DatabaseSequence.class
+com\renting\client\controller\ClientController.class
+com\renting\client\repository\ClientRepository.class
+com\renting\client\service\SequenceGeneratorService.class
+com\renting\client\model\Client.class

@@ -1,0 +1,13 @@
+com\renting\vehicle\config\MongoDbConfig.class
+com\renting\vehicle\service\ISequenceGeneratorService.class
+com\renting\vehicle\model\DatabaseSequence.class
+com\renting\vehicle\listener\VehicleModelListener.class
+com\renting\vehicle\repository\VehicleRepository.class
+com\renting\vehicle\vehicleApplication.class
+com\renting\vehicle\model\Vehicle$VehicleBuilder.class
+com\renting\vehicle\model\Vehicle.class
+com\renting\vehicle\service\IVehicleService.class
+com\renting\vehicle\config\WebFluxConfig.class
+com\renting\vehicle\service\VehicleService.class
+com\renting\vehicle\service\SequenceGeneratorService.class
+com\renting\vehicle\controller\VehicleController.class

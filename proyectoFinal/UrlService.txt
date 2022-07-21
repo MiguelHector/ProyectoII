@@ -1,0 +1,37 @@
+http://localhost:8091/renting/service/create
+
+{
+        "id": 0,
+        "dniDriver": "19903467",
+        "ruc": "3332",
+        "placa": "qqwe2",
+        "dateExit":"2022-07-02",
+        "dateReturn":"2022-07-05",
+        "destinity":"CUZCO",
+        "costService":"1500.00",
+        "feeDriver":"350.00",
+        "status":"ACTIVO"
+    }
+	
+	
+
+http://localhost:8091/renting/service/get/all
+
+http://localhost:8091/renting/service/getId/3
+
+http://localhost:8091/renting/service/update/3
+
+{
+        "id": 0,
+        "dniDriver": "19903467",
+        "ruc": "3332",
+        "placa": "qqwe2",
+        "dateExit":"2022-07-02",
+        "dateReturn":"2022-07-05",
+        "destinity":"CUZCO",
+        "costService":"1700.00",
+        "feeDriver":"350.00",
+        "status":"ACTIVO"
+    }
+	
+http://localhost:8091/renting/service/delete/5
